@@ -1,2 +1,1 @@
-# react-hooks-next-js
-react hooks with nextjs server side rendering
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).

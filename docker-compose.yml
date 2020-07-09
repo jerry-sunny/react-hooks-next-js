@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+  react_hooks_app:
+      build: ../react-hooks-next-js
+      container_name: react_hooks_app
+      ports:
+        - 3000:3000
+      volumes:
+        - ../react-hooks-next-js:/opt/react_hooks_app
+        - /opt/react_hooks_app/node_modules
